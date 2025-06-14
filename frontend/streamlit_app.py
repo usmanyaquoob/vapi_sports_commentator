@@ -12,11 +12,11 @@ def save_preferences(phone_number, sport, commentary_style, favorite_team, favor
         "phone_number": phone_number,
         "preferences": preferences
     }
-    response = requests.post("https://vapi-sports-commentator.onrender.com/save-preferences", json=payload)
+    response = requests.post(st.secrets["backend_url"], json=payload)
     if response.status_code == 200:
         st.success("Preferences saved successfully!")
     else:
-        st.error("Failed to save preferences.")
+        st.error(f"Failed to save preferences. Status: {response.status_code}, Message: {response.text}")
 
 # Streamlit UI
 st.title("Set Your Commentary Preferences")
