@@ -19,13 +19,17 @@ def save_preferences(phone_number, sport, commentary_style, favorite_team, favor
         st.error(f"Failed to save preferences. Status: {response.status_code}, Message: {response.text}")
 
 # Streamlit UI
-st.title("Set Your Commentary Preferences")
+st.title("BANTR - VAPI Sports Commentator")
+st.subheader("Preferences")
 
 phone_number = st.text_input("Phone Number")
 sport = st.selectbox("Preferred Sport", ["football", "cricket"])
 commentary_style = st.text_input("Commentary Style (e.g., snarky, neutral, enthusiastic)")
 favorite_team = st.text_input("Favorite Team")
 favorite_player = st.text_input("Favorite Player")
+
+st.info("**Important Info**: Call *+1 (973) 629 8204* to listen to the live sports commentary based on your saved preferences.")
+
 
 if st.button("Save Preferences"):
     if phone_number and sport and commentary_style and favorite_team and favorite_player:
