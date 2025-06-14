@@ -1,0 +1,38 @@
+{
+  "match_info": {
+    "home_team": "India",
+    "away_team": "South Africa",
+    "date": "2024-06-29",
+    "competition": "T20 World Cup 2024"
+  },
+  "events": [
+    {
+      "minute": 1,
+      "type": "boundary",
+      "player": "Rohit Sharma",
+      "team": "India",
+      "description": "Rohit Sharma smashes a boundary off Kagiso Rabada's first over!"
+    },
+    {
+      "minute": 3,
+      "type": "wicket",
+      "player": "Virat Kohli",
+      "team": "India",
+      "description": "Virat Kohli is caught at slip by Aiden Markram off Anrich Nortje."
+    },
+    {
+      "minute": 5,
+      "type": "six",
+      "player": "Suryakumar Yadav",
+      "team": "India",
+      "description": "Suryakumar Yadav hits a massive six over mid-wicket off Tabraiz Shamsi!"
+    },
+    {
+      "minute": 10,
+      "type": "wicket",
+      "player": "Heinrich Klaasen",
+      "team": "South Africa",
+      "description": "Heinrich Klaasen is bowled by Jasprit Bumrah."
+    }
+  ]
+}

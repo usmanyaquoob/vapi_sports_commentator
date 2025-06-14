@@ -1,0 +1,149 @@
+{
+  "match_info": {
+    "home_team": "Argentina",
+    "away_team": "France",
+    "date": "2022-12-18",
+    "venue": "Lusail Iconic Stadium, Qatar"
+  },
+  "events": [
+    {
+      "minute": 15,
+      "type": "incident",
+      "player": "Leandro Paredes",
+      "team": "Argentina",
+      "description": "Paredes and Theo Hernandez in a heated skirmish after a challenge.",
+      "details": {}
+    },
+    {
+      "minute": 23,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "description": "Penalty kick into the bottom left corner.",
+      "details": {
+        "assist": null,
+        "method": "penalty"
+      }
+    },
+    {
+      "minute": 36,
+      "type": "goal",
+      "player": "Angel Di Maria",
+      "team": "Argentina",
+      "description": "Finished from close range after a through ball.",
+      "details": {
+        "assist": "Alexis Mac Allister",
+        "method": "open play"
+      }
+    },
+    {
+      "minute": 41,
+      "type": "yellow_card",
+      "player": "Enzo Fernandez",
+      "team": "Argentina",
+      "description": "Foul on Kylian Mbappe. Slide Tackle",
+      "details": {
+        "reason": "foul"
+      }
+    },
+    {
+      "minute": 45,
+      "type": "incident",
+      "player": "Kylian Mbappe",
+      "team": "France",
+      "description": "Mbappe visibly frustrated after missing a chance.",
+      "details": {}
+    },
+    {
+      "minute": 50,
+      "type": "foul",
+      "player": "Adrien Rabiot",
+      "team": "France",
+      "description": "Late tackle on Rodrigo De Paul.",
+      "details": {
+        "severity": "moderate"
+      }
+    },
+    {
+      "minute": 55,
+      "type": "corner",
+      "player": "Antoine Griezmann",
+      "team": "France",
+      "description": "Corner kick delivered into the box.",
+      "details": {
+        "outcome": "cleared"
+      }
+    },
+    {
+      "minute": 80,
+      "type": "goal",
+      "player": "Kylian Mbappe",
+      "team": "France",
+      "description": "Penalty kick to the top right corner.",
+      "details": {
+        "assist": null,
+        "method": "penalty"
+      }
+    },
+    {
+      "minute": 81,
+      "type": "goal",
+      "player": "Kylian Mbappe",
+      "team": "France",
+      "description": "Volley from outside the box.",
+      "details": {
+        "assist": "Marcus Thuram",
+        "method": "open play"
+      }
+    },
+    {
+      "minute": 108,
+      "type": "goal",
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "description": "Tap-in after a scramble in the box.",
+      "details": {
+        "assist": null,
+        "method": "open play"
+      }
+    },
+    {
+      "minute": 115,
+      "type": "yellow_card",
+      "player": "Gonzalo Montiel",
+      "team": "Argentina",
+      "description": "Handball to stop a French counterattack.",
+      "details": {
+        "reason": "handball"
+      }
+    },
+    {
+      "minute": 118,
+      "type": "goal",
+      "player": "Kylian Mbappe",
+      "team": "France",
+      "description": "Penalty kick to the bottom right corner.",
+      "details": {
+        "assist": null,
+        "method": "penalty"
+      }
+    },
+    {
+      "minute": 120,
+      "type": "substitution",
+      "team": "Argentina",
+      "player_out": "Angel Di Maria",
+      "player_in": "Gonzalo Montiel",
+      "description": "Tactical substitution before penalties.",
+      "details": {}
+    },
+    {
+      "minute": 120,
+      "type": "incident",
+      "player": "Emiliano Martinez",
+      "team": "Argentina",
+      "description": "Martinez taunts French players before penalties.",
+      "details": {}
+    }
+  ]
+}
