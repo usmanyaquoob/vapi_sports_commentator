@@ -12,7 +12,7 @@ def save_preferences(phone_number, sport, commentary_style, favorite_team, favor
         "phone_number": phone_number,
         "preferences": preferences
     }
-    response = requests.post("http://localhost:8000/save-preferences", json=payload)
+    response = requests.post("https://vapi-sports-commentator.onrender.com/save-preferences", json=payload)
     if response.status_code == 200:
         st.success("Preferences saved successfully!")
     else:
